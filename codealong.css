@@ -1,0 +1,42 @@
+.calculator{
+    border: 2px solid black;
+    width: 233px;
+
+}
+
+.display{
+    border: none;
+    margin: 0px;
+    text-align: right;
+    padding: none;
+    color: white;
+    background-color: darkgrey;
+    font-size: 45px;
+    width: 100%;
+
+}
+
+button {
+    padding-bottom: 2px;
+}
+
+.function {
+    background-color: lightblue;
+}
+
+.numeric {
+    background: lightgrey;
+}
+
+.key{
+    width: 57px;
+    height: 47px;
+    margin-right: -3px;
+    font-size: 25px;
+    border: none;
+
+}
+
+button:focus {
+    outline: 0;
+}
